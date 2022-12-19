@@ -724,16 +724,42 @@ textarea {
 
 body {
   overflow: hidden;
+  height: 3838px;
+  width: 1440px;
 }
 
 .about {
-  transform: translate(40px, -305px);
+  transform: translate(150px, -305px);
   height: 1200px;
   background-image: url("http://blockpattern.local/wp-content/uploads/2022/12/Untitled-Presentation-169-e1671443662584.png");
 }
 
 .page_item {
   padding: 20px;
+}
+
+.entry-content {
+  margin-top: 430px;
+}
+
+p {
+  padding-right: 1090px;
+}
+
+.wp-block-buttons > .wp-block-button.has-custom-width .wp-block-button__link {
+  width: 40%;
+}
+
+.is-layout-flow {
+  display: none;
+}
+
+.is-layout-flex {
+  padding: 0px;
+}
+
+li {
+  display: none;
 }
 
 /* Comments
