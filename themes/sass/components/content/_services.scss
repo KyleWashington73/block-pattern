@@ -2,29 +2,21 @@
     display: inline;
 }
 
+
+
 .is-layout-flow {
     display: inline;
    
  
 }
 
-.is-layout-constrained {
-    height: 261px;
-    width: 394px;
-    border: 2px solid #FFCB05;
-    padding: 30px;
-}
-
-.is-layout-flex {
-  
-}
 
 
-.is-layout-flex>.wp-container-7>.wp-block-columns {
+.is-layout-flow>.wp-container-7>.wp-block-column>.wp-block-columns {
     display: inline;
     color: aliceblue;
-  
-   
+    padding: 0;
+    // border: 2px solid #FFCB05;
 }
 
 .wp-block-group__inner-container {
@@ -37,6 +29,8 @@
     display: inline;
    
 }
+
+
 
 p {
     display: inline;
@@ -58,4 +52,24 @@ p {
 
 .wp-image-316 {
     margin-top: -100px;
+}
+
+
+
+
+.cards {
+    border: 2px solid #FFCB05;
+    height: 261px;
+    width: 394px;
+    padding: 30px;
+    margin-top: 60px;
+    margin-left: -13px;
+}
+
+.para {
+   margin-left: 350px; 
+}
+
+.header1 {
+    margin-left: -200px;
 }

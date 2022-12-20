@@ -8,7 +8,8 @@
 ?>  
 <?php get_header(); ?>
 <!-- code goes here --> 
-<div class="services">
+<div class="wp-block-group">
+    <div class="container1"></div>
 
     <?php
 
