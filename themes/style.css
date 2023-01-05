@@ -728,6 +728,10 @@ body {
   width: 1440px;
 }
 
+.nojq {
+  display: none;
+}
+
 .about {
   transform: translate(150px, -305px);
   height: 1200px;
@@ -747,6 +751,10 @@ body {
 }
 
 .is-layout-flow {
+  display: none;
+}
+
+.is-layout-flex > .wpcontainer-16 {
   display: none;
 }
 
@@ -827,6 +835,25 @@ p {
 
 .header1 {
   margin-left: -200px;
+}
+
+.card {
+  height: 425px;
+  width: 296px;
+  margin: 0px;
+}
+
+.button {
+  margin: 0px;
+}
+
+h1 {
+  text-align: left;
+  margin: 0;
+}
+
+.wp-block-columns {
+  margin: 0;
 }
 
 /* Comments

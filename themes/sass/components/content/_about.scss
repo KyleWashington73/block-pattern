@@ -4,8 +4,10 @@ body {
   width: 1440px;
 }
 
+.nojq {
+  display: none;
+}
 
-  
 .about {
   transform: translate(150px, -305px); 
   height: 1200px;
@@ -33,6 +35,11 @@ body {
   
  }
 
+ .is-layout-flex>.wpcontainer-16 {
+  display: none;
+  
+ }
+
  
 
  .is-layout-flex {
@@ -49,8 +56,9 @@ body {
  }
 
  .paragraph {
- margin-right: 200px;
 
+   margin-right: 200px;
+   font-family: 'Lusitana', serif;
  }
 
  a {
